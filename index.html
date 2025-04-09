@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- imagens redmensionadas ou seja dinamicas adptativas -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>
+    imagens dinamamicas
+  </h1>
+
+  <picture>
+    <source media="(max-width:750px )" srcset="./imagens/fot-p.png" type="image/png">
+    <source media="(max-width:1000px )" srcset="./imagens/foto-m.png" type="image/png">
+    <img src="./imagens/foto-g.png" alt="foto grande">
+  </picture>
+
+
+</body>
+
+</html>
